@@ -1,0 +1,31 @@
+* {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html {
+    background:#040109;
+    background: radial-gradient(63.77% 86.17% at 50% 109.83%, rgba(255, 38, 42, 0.25) 0%, rgba(255, 38, 42, 0.05) 61.73%, rgba(255, 38, 42, 0.00) 100%), radial-gradient(91.47% 129.17% at 50% 122.72%, rgba(168, 38, 255, 0.35) 0%, rgba(168, 38, 255, 0.05) 85.4%, rgba(168, 38, 255, 0.00) 100%), #040109;
+    background-size: cover;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+    color:#e0dbe6;
+    font-weight:normal;
+}
+
+.home-logo-container {
+    display:flex;
+    width:100%;
+    height:100%;
+    position:fixed;
+    align-items:center;
+    justify-content:center;
+}
+
+.home-logo {
+    width:200px;
+    user-select:none;
+}
