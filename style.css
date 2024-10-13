@@ -16,6 +16,15 @@ background-attachment: fixed;
     font-weight:normal;
 }
 
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 .home-logo-container {
     display:flex;
     width:100%;
@@ -26,6 +35,35 @@ background-attachment: fixed;
 }
 
 .home-logo {
-    width:200px;
+    width:280px;
+    max-width:90%;
     user-select:none;
+}
+
+.links {
+    display:flex;
+    width:100%;
+    position:fixed;
+    bottom:0;
+    align-items:center;
+    justify-content:center;
+    padding:24px;
+}
+
+.links a {
+    font-size:16px;
+    font-weight:400;
+    color:rgba(255, 255, 255, .7);
+    text-decoration:none;
+    padding:16px 16px;
+    border-radius: 12px;
+    outline: 1px solid rgba(255, 255, 255, .25);
+    background: linear-gradient(rgba(255, 255, 255, .05), rgba(255, 255, 255, .15));
+    box-shadow: inset 0px 0px 12px rgba(255, 255, 255, .2), 0px 1px 4px rgba(0, 0, 0, .1);
+    transition: all 150ms cubic-bezier(.28,.67,0,.96);
+}
+
+.links a:hover {
+    color:#FFF;
+    padding:16px 32px;
 }
